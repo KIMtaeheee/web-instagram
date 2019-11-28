@@ -1,0 +1,80 @@
+body {
+    width: 360px;
+    margin: auto;
+}
+.user_layout {
+    display: flex;
+    justify-content: flex-start;
+}
+.feed_user_profile_img {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.cutecat {
+    margin: 0;
+}
+.feed_option_button {
+    display: flex;
+    justify-content: flex-end;
+}
+.feed_body_header {
+    margin: 10;
+    padding: 10;
+}
+.body_header_left_layout {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.body_header_right_layout {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.like_layout {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.user_contents_layout {
+    display: flex;
+    justify-content: flex-start;
+}
+.user_id {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.user_content {
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+.reply_counter {
+    font-size: 0.9em;
+    color: gray;
+}
+.reply_body {
+    display: flex;
+    justify-content: flex-start;
+}
+.reply_user_id {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.reply_content {
+    font-size: 0.9em;
+}
+.reply_layout {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.time_layout {
+    font-size: 0.6em;
+    color: gray;
+}
+.reply_like_layout {
+    display: flex;
+    justify-content: flex-end;
+}
